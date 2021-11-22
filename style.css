@@ -57,3 +57,26 @@ p,li{
     border: 50% ;
     width:325px;
 }
+
+.linksexternos{
+    text-decoration: none;
+    color: gray;
+}
+
+.linklinkedin{
+    background-color: #007bb6 ;
+    color: white;
+    text-decoration: none;
+    border-radius: 7px;
+    margin-left: 15px;
+}
+
+.linkgithub{
+    
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    border-radius: 7px;
+    margin-left: 15px;
+    
+}
