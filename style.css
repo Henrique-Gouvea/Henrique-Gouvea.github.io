@@ -13,6 +13,7 @@ body{
 
 nav{
     z-index: 1;
+    font-family: 'Courier New', serif;
 }
 
 header h1{
@@ -20,7 +21,7 @@ header h1{
     font-size: 50px;
     position: absolute;
     top: 50px;
-    left: 425px;
+    left: 35%;
 }
 
 header h2{
@@ -68,8 +69,13 @@ p,li{
     font-size: 25px;
 }
 
-.henrique{
+.henrique-front{
     width:321px;
+}
+
+.henrique-side{
+    width:321px;
+    padding-right: 40px;
 }
 
 .linksexternos{
