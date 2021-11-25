@@ -1,0 +1,144 @@
+
+@font-face{
+    font-family: 'Caveat';
+    src: url(Caveat/Caveat-VariableFont_wght.ttf);
+}
+
+
+body{
+    text-align: center;
+    font-family: 'Caveat',serif;
+}
+article{
+    margin: auto 30%;
+}
+
+nav{
+    z-index: 1;
+    font-family: 'Courier New', serif;
+}
+
+header h1{
+    color: white;
+    font-size: 50px;
+    position: absolute;
+    top: 80px;
+    left: 36%;
+}
+
+header h2{
+    color: white;
+    font-size: 40px;
+    position: absolute;
+    top: 300px;
+    left: 37%;
+}
+
+#habilidades{
+    padding-top: 100px;
+}
+
+#quemsoueu{
+    padding-top: 100px;
+}
+
+#gostos{
+    padding-top: 100px;
+}
+
+#links{
+    padding-top: 100px;
+}
+
+h3{
+    font-size: 40px;
+}
+p,li{
+    font-size: 30px;
+}
+
+li{
+    display: block;
+}
+
+
+.header{
+    margin-top: 0px;
+    padding-top: 120px;
+    padding-bottom: 148px;
+    width: 100%;
+	height: 280px;
+	background-image: url(images/giz.webp);
+    background-size: cover;
+    display: block;
+}
+
+nav a:hover{
+    color: black;
+}
+
+.nav{
+    position: fixed;
+    top: 10px;
+    width:100%;
+    box-shadow: 0 2px 7px rgba(0, 1, 0, 0.397);
+    background-color:gray;
+    padding: 9px;
+}
+
+.nav a{
+    margin-left: 70px;
+    color:white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.henrique-front{
+    width:321px;
+}
+
+.henrique-side{
+    width:321px;
+    padding-right: 40px;
+}
+
+.linksexternos{
+    text-decoration: none;
+    color: gray;
+}
+
+.linklinkedin{
+    background-color: #007bb6 ;
+    color: white;
+    text-decoration: none;
+    border-radius: 7px;
+    margin-left: 15px;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-bottom: 5px;
+    font-family:  Helvetica, serif;
+}
+.linklinkedin:hover{
+    background-color: #007cb69a ;
+}
+.linkgithub{
+    
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    border-radius: 7px;
+    margin-left: 15px;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-bottom: 5px;
+    font-family:  Helvetica, serif;
+}
+.linkgithub:hover{
+    background-color: rgba(0, 0, 0, 0.623);
+}
+
+footer{
+    padding-top: 70px;
+
+}
