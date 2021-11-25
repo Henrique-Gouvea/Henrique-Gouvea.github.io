@@ -73,6 +73,9 @@ li{
     display: block;
 }
 
+nav a:hover{
+    color: black;
+}
 
 .nav{
     position: fixed;
