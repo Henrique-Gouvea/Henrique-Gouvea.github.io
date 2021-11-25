@@ -11,13 +11,24 @@ body{
 
 }
 
-h1{
-    color: white;
-    font-size: 60px;
+nav{
+    z-index: 1;
 }
 
-h2{
+header h1{
+    color: white;
     font-size: 50px;
+    position: absolute;
+    top: 50px;
+    left: 425px;
+}
+
+header h2{
+    color: white;
+    font-size: 30px;
+    position: absolute;
+    top: 280px;
+    left: 500px;
 }
 
 h3{
@@ -27,40 +38,37 @@ p,li{
     font-size: 30px;
 }
 
-.back1{
+
+.header{
+    margin-top: 0px;
+    padding-top: 120px;
+    padding-bottom: 28px;
     width: 100%;
 	height: 280px;
-	background-image: url(images/wall.jpg);
-    background-size: cover; 
+	background-image: url(images/giz.webp);
+    background-size: cover;
+    display: block;
 }
 
-.back2{
 
-    
-}
-
-.cabecalho{
-    
+.nav{
     position: fixed;
-    top: 10;
-    left: 0;
+    top: 10px;
     width:100%;
     box-shadow: 0 2px 7px rgba(0, 1, 0, 0.397);
     background-color:gray;
     padding: 9px;
 }
 
-.cabecalhoescrita{
-    
+.nav a{
+    margin-left: 70px;
     color:white;
-    top: 10;
     text-decoration: none;
     font-weight: bold;
-    font-size: 30px;
+    font-size: 25px;
 }
 
 .henrique{
-    border: 50% ;
     width:321px;
 }
 
