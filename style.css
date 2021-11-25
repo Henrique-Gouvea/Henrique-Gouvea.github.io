@@ -116,7 +116,9 @@ li{
     padding-bottom: 5px;
     font-family:  Helvetica, serif;
 }
-
+.linklinkedin:hover{
+    background-color: #007cb69a ;
+}
 .linkgithub{
     
     background-color: black;
@@ -128,6 +130,9 @@ li{
     padding-left: 20px;
     padding-bottom: 5px;
     font-family:  Helvetica, serif;
+}
+.linkgithub:hover{
+    background-color: rgba(0, 0, 0, 0.623);
 }
 
 footer{
