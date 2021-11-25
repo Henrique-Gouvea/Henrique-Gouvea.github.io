@@ -49,7 +49,9 @@ header h2{
 #links{
     padding-top: 100px;
 }
-
+#contatos{
+    padding-top: 100px;
+}
 h3{
     font-size: 40px;
 }
@@ -70,11 +72,18 @@ li{
 	height: 280px;
 	background-image: url(images/giz.webp);
     background-size: cover;
+   /* border-radius: 20%;*/
     display: block;
+}
+.divisa{
+    background-image: url(/images/divisa.jpg);
+    background-size: cover;
+    padding-bottom: 20px;
+
 }
 
 nav a:hover{
-    color: black;
+    color: transparent;
 }
 
 .nav{
@@ -105,7 +114,12 @@ nav a:hover{
 
 .linksexternos{
     text-decoration: none;
-    color: gray;
+    color: rgb(105, 105, 105);
+}
+
+.linksexternos:hover{
+    color: rgba(128, 128, 128, 0.664);
+
 }
 
 .linklinkedin{
