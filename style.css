@@ -33,7 +33,9 @@ header h2{
     top: 300px;
     left: 37%;
 }
-
+.projeto1{
+    font-size: 50px;
+}
 #habilidades{
     padding-top: 100px;
 }
@@ -154,5 +156,8 @@ nav a:hover{
 
 footer{
     padding-top: 70px;
+}
 
+@media screen and {
+    
 }
