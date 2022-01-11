@@ -126,7 +126,7 @@ footer{
     padding-top: 70px;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (min-width: 451px) and (max-width: 1000px) {
     
     main{
         margin-left: 0px;
@@ -208,4 +208,17 @@ footer{
     footer p{
         font-size: 35px;
     }
+
+    @media screen and (max-width: 450px){
+        article{
+            background-color: red;
+        }
+        header h1{
+            top: 2px;
+            left: 20%;
+            color: black;
+            font-size: 80px;
+            position: absolute;
+        }
+    } 
 }
