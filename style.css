@@ -66,6 +66,10 @@ li{
 }
 section a{
     margin: 3%;
+    opacity: 0.8;
+}
+section a:hover{
+    opacity: 1;
 }
 
 .header{
