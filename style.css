@@ -163,6 +163,10 @@ footer{
         font-size: 80px;
         position: absolute;
     }
+    header h2{
+        left: 33%;
+        top: 350px;
+    }
     #quemsoueu{
         padding-top: 1px;
     }
@@ -194,5 +198,14 @@ footer{
     }
     #ultima-divisao{
         margin-top: 50px;
+    }
+    footer{
+        background-image: url(/images/giz.webp);
+        color: white;
+        padding-top: 1%;
+        padding-bottom: 1%;
+    }
+    footer p{
+        font-size: 35px;
     }
 }
